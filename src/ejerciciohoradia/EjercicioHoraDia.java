@@ -45,10 +45,10 @@ public class EjercicioHoraDia {
                         System.out.println("Mañana");
                     else
                         if( horas > 12 && horas <= 21 )
-                        System.out.println("Tarde");
+                            System.out.println("Tarde");
                         else
                             if( horas > 21 && horas <= 23 ) // PARA EVITAR EL PROBLEMA DEL '0'
-                            System.out.println("Noche");
+                                System.out.println("Noche");
             
         
     }
